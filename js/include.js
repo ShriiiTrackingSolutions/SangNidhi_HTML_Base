@@ -23,11 +23,6 @@ const loadFragment = (url, selector, callbackAfterInject) => {
 };
 
 loadFragment('header.html', '#header');
-loadFragment('footer.html', '#footer', () => {
-  // Optional: dynamically load JS that footer depends on
-  const script = document.createElement('script');
-  script.src = 'js/footer.js';
-  document.body.appendChild(script);
-});
+loadFragment('footer.html', '#footer');
 }
 

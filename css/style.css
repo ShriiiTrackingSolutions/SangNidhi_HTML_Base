@@ -383,8 +383,9 @@ scale: 86%;
   gap: 16px 16px;
 }
 .footConIcon{
-      flex: 0 0 auto;
+    flex: 0 0 auto;
     width: auto;
+    font-size: 24px;
 }
 .footConText{
       flex: 1 0 0%;
